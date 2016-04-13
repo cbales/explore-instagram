@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({'extended': 'true'}));
 app.use(bodyParser.json());
 app.use(bodyParser.json({type: 'application/vnd.api+json'}));
-app.use(cors({origin: 'http://localhost:3000'}));
+app.use(cors({origin: 'http://explore-instagram.cbales-portfolio.com'}));
 app.use(cookieParser());
 
 app.use('/', instagram);
