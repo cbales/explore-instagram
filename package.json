@@ -1,0 +1,17 @@
+{
+  "name": "explore-instagram",
+  "version": "0.0.0",
+  "description": "Use the Instagram API to explore tags",
+  "main": "server.js",
+  "author": "cbales",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "https": "^1.0.0",
+    "instagram-node": "^0.5.8",
+    "method-override": "^2.3.5",
+    "request": "^2.71.0"
+  }
+}
