@@ -1,12 +1,13 @@
 <!doctype html>
-<html ng-app="quickPin">
+<html ng-app="exploreInstagram">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Quick Pin</title>
+    <title>Explore Instagram</title>
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
     <script src="core.js"></script>
 
@@ -40,9 +41,9 @@
         <br >
 
         <!-- Tagged Photos -->
-        <div id="board-list" class="col-md-12 row" style="margin-top: 100px">
+        <div id="board-list" class="col-md-12 row">
                 <div class="col-md-3" ng-repeat="photo in taggedPhotos">
-                    <img style="width: 90%; border: 2px solid #eee" src="{{ photo.images.low_resolution.url }}" alt="{{ photo.caption.text }}" /><br>
+                    <img src="{{ photo.images.low_resolution.url }}" alt="{{ photo.caption.text }}" /><br>
             </div>
         </div>
 
