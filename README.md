@@ -2,7 +2,7 @@
 Use the Instagram API to explore tags
 
 ## Demo ##
-[explore-instagram.cbales-portfolio.com](explore-instagram.cbales-portfolio.com)
+[explore-instagram.cbales-portfolio.com](http://explore-instagram.cbales-portfolio.com)
 
 
 ## Sandbox mode ##
